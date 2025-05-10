@@ -1,0 +1,23 @@
+{
+  "app": {
+    "[project]/src/app/Regulators/page": [
+      "static/media/LYjBdG_8nE8jDLyFpDNHjV8FVtff-s.p.398c7c59.woff2",
+      "static/media/LYjMdG_8nE8jDLRagCZqr1Iv-s.p.5c1b317f.woff2",
+      "static/media/LYjBdG_8nE8jDLypozNHjV8FVtff-s.p.b2740b58.woff2",
+      "static/media/92zatBhPNqw73oTd4jQmfxI-s.p.ba172912.woff2",
+      "static/media/LYjBdG_8nE8jDLzxojNHjV8FVtff-s.p.2f15350a.woff2",
+      "static/media/LYjBdG_8nE8jDLzhpTNHjV8FVtff-s.p.9a8ff3b5.woff2"
+    ],
+    "[project]/src/app/_not-found/page": [
+      "static/media/LYjBdG_8nE8jDLyFpDNHjV8FVtff-s.p.398c7c59.woff2",
+      "static/media/LYjMdG_8nE8jDLRagCZqr1Iv-s.p.5c1b317f.woff2",
+      "static/media/LYjBdG_8nE8jDLypozNHjV8FVtff-s.p.b2740b58.woff2",
+      "static/media/92zatBhPNqw73oTd4jQmfxI-s.p.ba172912.woff2",
+      "static/media/LYjBdG_8nE8jDLzxojNHjV8FVtff-s.p.2f15350a.woff2",
+      "static/media/LYjBdG_8nE8jDLzhpTNHjV8FVtff-s.p.9a8ff3b5.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
