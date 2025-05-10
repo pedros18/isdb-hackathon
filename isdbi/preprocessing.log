@@ -1,0 +1,126 @@
+2025-05-09 11:05:54,888 - __main__ - INFO - Processing file: pdf_eng\FAS-28-Murabaha-and-Other-Deferred-Payment-Sales-Formatted-2021-clean-1.pdf
+2025-05-09 11:05:55,041 - __main__ - INFO - Output saved to processed_standards\FAS-28-Murabaha-and-Other-Deferred-Payment-Sales-Formatted-2021-clean-1.json
+2025-05-09 11:07:03,891 - __main__ - INFO - Processing file: pdf_eng\AAOIFI-19th-SB-Conf.-Arabic-Agenda-V9.pdf
+2025-05-09 11:07:03,999 - __main__ - INFO - Output saved to processed_standards\AAOIFI-19th-SB-Conf.-Arabic-Agenda-V9.json
+2025-05-09 11:07:03,999 - __main__ - INFO - Processing file: pdf_eng\AAOIFI-20th-SB-Conf.-Arabic-Agenda-V5LR.pdf
+2025-05-09 11:07:04,026 - __main__ - INFO - Output saved to processed_standards\AAOIFI-20th-SB-Conf.-Arabic-Agenda-V5LR.json
+2025-05-09 11:07:04,026 - __main__ - INFO - Processing file: pdf_eng\AAOIFI-Conceptual-Framework-for-Financial-Reporting-Revised-2020-Final-clean.pdf
+2025-05-09 11:07:04,235 - __main__ - INFO - Output saved to processed_standards\AAOIFI-Conceptual-Framework-for-Financial-Reporting-Revised-2020-Final-clean.json
+2025-05-09 11:07:04,236 - __main__ - INFO - Processing file: pdf_eng\AAOIFI-SB-Conf.-17-Booklet-A-Rev-5-LR.pdf
+2025-05-09 11:07:05,820 - __main__ - INFO - Output saved to processed_standards\AAOIFI-SB-Conf.-17-Booklet-A-Rev-5-LR.json
+2025-05-09 11:07:05,821 - __main__ - INFO - Processing file: pdf_eng\AAOIFI-SB-Conf.-17-Final-Recommendations.pdf
+2025-05-09 11:07:05,853 - __main__ - INFO - Output saved to processed_standards\AAOIFI-SB-Conf.-17-Final-Recommendations.json
+2025-05-09 11:07:05,853 - __main__ - INFO - Processing file: pdf_eng\AAOIFI-WB-Conf.-13th-Ara-AgendaFinal-2.pdf
+2025-05-09 11:07:05,985 - __main__ - INFO - Output saved to processed_standards\AAOIFI-WB-Conf.-13th-Ara-AgendaFinal-2.json
+2025-05-09 11:07:05,985 - __main__ - INFO - Processing file: pdf_eng\Conceptual-Framework-for-Financial-Reporting-by-Islamic-Financial-Institutions.pdf
+2025-05-09 11:07:06,299 - __main__ - INFO - Output saved to processed_standards\Conceptual-Framework-for-Financial-Reporting-by-Islamic-Financial-Institutions.json
+2025-05-09 11:07:06,299 - __main__ - INFO - Processing file: pdf_eng\FAS-1-General-Presentation-and-Disclosure-in-the-Financial-Statements-of-Islamic-Banks-and-Financial-Institutions.pdf
+2025-05-09 11:07:06,771 - __main__ - INFO - Output saved to processed_standards\FAS-1-General-Presentation-and-Disclosure-in-the-Financial-Statements-of-Islamic-Banks-and-Financial-Institutions.json
+2025-05-09 11:07:06,771 - __main__ - INFO - Processing file: pdf_eng\FAS-1-General-Presentation-and-Disclosures-in-the-Financial-Statements-_-v7-clean-17-October-2022.pdf
+2025-05-09 11:07:06,971 - __main__ - INFO - Output saved to processed_standards\FAS-1-General-Presentation-and-Disclosures-in-the-Financial-Statements-_-v7-clean-17-October-2022.json
+2025-05-09 11:07:06,971 - __main__ - INFO - Processing file: pdf_eng\FAS-28-Murabaha-and-Other-Deferred-Payment-Sales-Formatted-2021-clean-1.pdf
+2025-05-09 11:07:07,043 - __main__ - INFO - Output saved to processed_standards\FAS-28-Murabaha-and-Other-Deferred-Payment-Sales-Formatted-2021-clean-1.json
+2025-05-09 11:07:07,045 - __main__ - INFO - Processing file: pdf_eng\FAS-30-Impairment-Credit-Losses-and-Onerous-Commitments-Formatted-2021-clean-13-Nov-22-1.pdf
+2025-05-09 11:07:07,147 - __main__ - INFO - Output saved to processed_standards\FAS-30-Impairment-Credit-Losses-and-Onerous-Commitments-Formatted-2021-clean-13-Nov-22-1.json
+2025-05-09 11:07:07,149 - __main__ - INFO - Processing file: pdf_eng\FAS-31-Investment-Agency-Al-Wakala-Bi-Al-Istithmar-Final-format-2021-updated-clean-1.pdf
+2025-05-09 11:07:07,244 - __main__ - INFO - Output saved to processed_standards\FAS-31-Investment-Agency-Al-Wakala-Bi-Al-Istithmar-Final-format-2021-updated-clean-1.json
+2025-05-09 11:07:07,246 - __main__ - INFO - Processing file: pdf_eng\FAS-32-Ijarah-Formatted-2021-clean-April-2023-1.pdf
+2025-05-09 11:07:07,387 - __main__ - INFO - Output saved to processed_standards\FAS-32-Ijarah-Formatted-2021-clean-April-2023-1.json
+2025-05-09 11:07:07,387 - __main__ - INFO - Processing file: pdf_eng\FAS-33-Investment-in-Sukuk-Shares-and-Similar-Instrutments-formatted-clean-updated-April-2023.pdf
+2025-05-09 11:07:07,469 - __main__ - INFO - Output saved to processed_standards\FAS-33-Investment-in-Sukuk-Shares-and-Similar-Instrutments-formatted-clean-updated-April-2023.json
+2025-05-09 11:07:07,471 - __main__ - INFO - Processing file: pdf_eng\FAS-34-Financial-Reporting-for-Sukuk-holders-Final-Clean-updated-April-2023.pdf
+2025-05-09 11:07:07,529 - __main__ - INFO - Output saved to processed_standards\FAS-34-Financial-Reporting-for-Sukuk-holders-Final-Clean-updated-April-2023.json
+2025-05-09 11:07:07,530 - __main__ - INFO - Processing file: pdf_eng\FAS-35-Risk-Reserve-Finalization-Formatted-2021-clean-16-Aug-2022.pdf
+2025-05-09 11:07:07,600 - __main__ - INFO - Output saved to processed_standards\FAS-35-Risk-Reserve-Finalization-Formatted-2021-clean-16-Aug-2022.json
+2025-05-09 11:07:07,600 - __main__ - INFO - Processing file: pdf_eng\FAS-36-First-Time-Adoption-of-AAOIFI-Financial-Accounting-Standards-Final-30-Nov-20-Clean.pdf
+2025-05-09 11:07:07,677 - __main__ - INFO - Output saved to processed_standards\FAS-36-First-Time-Adoption-of-AAOIFI-Financial-Accounting-Standards-Final-30-Nov-20-Clean.json
+2025-05-09 11:07:07,679 - __main__ - INFO - Processing file: pdf_eng\FAS-37-Financial-reporting-by-Waqf-institutions-Final-15-December-2020-v2-clean.pdf
+2025-05-09 11:07:07,799 - __main__ - INFO - Output saved to processed_standards\FAS-37-Financial-reporting-by-Waqf-institutions-Final-15-December-2020-v2-clean.json
+2025-05-09 11:07:07,801 - __main__ - INFO - Processing file: pdf_eng\FAS-38-Waad-Khiyar-and-Tahawwut-Final-15-December-2020-clean.pdf
+2025-05-09 11:07:07,867 - __main__ - INFO - Output saved to processed_standards\FAS-38-Waad-Khiyar-and-Tahawwut-Final-15-December-2020-clean.json
+2025-05-09 11:07:07,868 - __main__ - INFO - Processing file: pdf_eng\FAS-39-Financial-reporting-for-Zakah-clean-june-2022.pdf
+2025-05-09 11:07:08,015 - __main__ - INFO - Output saved to processed_standards\FAS-39-Financial-reporting-for-Zakah-clean-june-2022.json
+2025-05-09 11:07:08,016 - __main__ - INFO - Processing file: pdf_eng\FAS-40-Financial-Reporting-for-Islamic-Windows.pdf
+2025-05-09 11:07:08,074 - __main__ - INFO - Output saved to processed_standards\FAS-40-Financial-Reporting-for-Islamic-Windows.json
+2025-05-09 11:07:08,076 - __main__ - INFO - Processing file: pdf_eng\FAS-41-Interim-Financial-Reporting-v16-final-for-issuance_clean.pdf
+2025-05-09 11:07:08,146 - __main__ - INFO - Output saved to processed_standards\FAS-41-Interim-Financial-Reporting-v16-final-for-issuance_clean.json
+2025-05-09 11:07:08,146 - __main__ - INFO - Processing file: pdf_eng\FAS-42-Presentation-and-Disclosures-in-the-Financial-Statements-of-Takaful-Institutions-final-clean.pdf
+2025-05-09 11:07:08,283 - __main__ - INFO - Output saved to processed_standards\FAS-42-Presentation-and-Disclosures-in-the-Financial-Statements-of-Takaful-Institutions-final-clean.json
+2025-05-09 11:07:08,284 - __main__ - INFO - Processing file: pdf_eng\FAS-43-Accounting-for-Takaful-Recognition-and-Measurement_Final_clean.pdf
+2025-05-09 11:07:08,457 - __main__ - INFO - Output saved to processed_standards\FAS-43-Accounting-for-Takaful-Recognition-and-Measurement_Final_clean.json
+2025-05-09 11:07:08,457 - __main__ - INFO - Processing file: pdf_eng\FAS-44_-Determining-Control-of-Assets-and-Business-Final.pdf
+2025-05-09 11:07:08,521 - __main__ - INFO - Output saved to processed_standards\FAS-44_-Determining-Control-of-Assets-and-Business-Final.json
+2025-05-09 11:07:08,521 - __main__ - INFO - Processing file: pdf_eng\FAS-45_Quasi-equity-Including-Investment-Accounts-Final.pdf
+2025-05-09 11:07:08,608 - __main__ - INFO - Output saved to processed_standards\FAS-45_Quasi-equity-Including-Investment-Accounts-Final.json
+2025-05-09 11:07:08,608 - __main__ - INFO - Processing file: pdf_eng\FAS-46_Off-Balance-Sheet-Assets-Under-Management-Final.pdf
+2025-05-09 11:07:08,702 - __main__ - INFO - Output saved to processed_standards\FAS-46_Off-Balance-Sheet-Assets-Under-Management-Final.json
+2025-05-09 11:07:08,702 - __main__ - INFO - Processing file: pdf_eng\FAS-47_Transfer-of-Assets-between-Investment-Pools-Final.pdf
+2025-05-09 11:07:08,770 - __main__ - INFO - Output saved to processed_standards\FAS-47_Transfer-of-Assets-between-Investment-Pools-Final.json
+2025-05-09 11:07:08,770 - __main__ - INFO - Processing file: pdf_eng\Fiancial-Accounting-Standard-No.-13-Disclosure-of-Bases-for-Determining-and-Allocating-Surplus-or-Defificit-in-Islamic-Insurance-Companies.pdf
+2025-05-09 11:07:08,896 - __main__ - INFO - Output saved to processed_standards\Fiancial-Accounting-Standard-No.-13-Disclosure-of-Bases-for-Determining-and-Allocating-Surplus-or-Defificit-in-Islamic-Insurance-Companies.json
+2025-05-09 11:07:08,896 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-10-Istisnaa-and-Parallel-Istisnaa.pdf
+2025-05-09 11:07:09,102 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-10-Istisnaa-and-Parallel-Istisnaa.json
+2025-05-09 11:07:09,104 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-12-General-Presentation-and-Disclosure-in-the-Financial-Statements-of-Islamic-Insurance-Companies.pdf
+2025-05-09 11:07:09,451 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-12-General-Presentation-and-Disclosure-in-the-Financial-Statements-of-Islamic-Insurance-Companies.json
+2025-05-09 11:07:09,451 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-14-Investment-Funds.pdf
+2025-05-09 11:07:09,632 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-14-Investment-Funds.json
+2025-05-09 11:07:09,632 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-15-Provisions-and-Reserves-in-Islamic-Insurance-Companies.pdf
+2025-05-09 11:07:09,733 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-15-Provisions-and-Reserves-in-Islamic-Insurance-Companies.json
+2025-05-09 11:07:09,734 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-16-Foreign-Currency-Transactions-and-Foreign-Operations.pdf
+2025-05-09 11:07:09,857 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-16-Foreign-Currency-Transactions-and-Foreign-Operations.json
+2025-05-09 11:07:09,857 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-18-Islamic-Financial-Services-Offffered-by-Conventional-Financial-Institutions.pdf
+2025-05-09 11:07:09,935 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-18-Islamic-Financial-Services-Offffered-by-Conventional-Financial-Institutions.json
+2025-05-09 11:07:09,935 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-19-Contributions-in-Islamic-Insurance-Companies.pdf
+2025-05-09 11:07:10,043 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-19-Contributions-in-Islamic-Insurance-Companies.json
+2025-05-09 11:07:10,043 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-21-Disclosure-on-Transfer-of-Assets.pdf
+2025-05-09 11:07:10,107 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-21-Disclosure-on-Transfer-of-Assets.json
+2025-05-09 11:07:10,107 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-22-Segment-Reporting.pdf
+2025-05-09 11:07:10,191 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-22-Segment-Reporting.json
+2025-05-09 11:07:10,199 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-23-Consolidation.pdf
+2025-05-09 11:07:10,282 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-23-Consolidation.json
+2025-05-09 11:07:10,282 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-24-Investments-in-Associates.pdf
+2025-05-09 11:07:10,358 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-24-Investments-in-Associates.json
+2025-05-09 11:07:10,363 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-25-Investment-in-Sukuk-Shares-and-Similar-Instruments.pdf
+2025-05-09 11:07:10,557 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-25-Investment-in-Sukuk-Shares-and-Similar-Instruments.json
+2025-05-09 11:07:10,557 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-26-Investment-in-Real-Estate.pdf
+2025-05-09 11:07:10,749 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-26-Investment-in-Real-Estate.json
+2025-05-09 11:07:10,749 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-27-Investment-accounts.pdf
+2025-05-09 11:07:10,861 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-27-Investment-accounts.json
+2025-05-09 11:07:10,866 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-3-Mudaraba-Financing.pdf
+2025-05-09 11:07:11,058 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-3-Mudaraba-Financing.json
+2025-05-09 11:07:11,058 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-4-Musharaka-Financing.pdf
+2025-05-09 11:07:11,210 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-4-Musharaka-Financing.json
+2025-05-09 11:07:11,212 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-7-Salam-and-Parallel-Salam.pdf
+2025-05-09 11:07:11,442 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-7-Salam-and-Parallel-Salam.json
+2025-05-09 11:07:11,443 - __main__ - INFO - Processing file: pdf_eng\Financial-Accounting-Standard-9-Zakah.pdf
+2025-05-09 11:07:11,627 - __main__ - INFO - Output saved to processed_standards\Financial-Accounting-Standard-9-Zakah.json
+2025-05-09 11:07:11,630 - __main__ - INFO - Processing file: pdf_eng\Research-papers-1.pdf
+2025-05-09 11:07:12,160 - __main__ - INFO - Output saved to processed_standards\Research-papers-1.json
+2025-05-09 11:07:12,162 - __main__ - INFO - Processing file: pdf_eng\Research-papers-new.pdf
+2025-05-09 11:07:13,385 - __main__ - INFO - Output saved to processed_standards\Research-papers-new.json
+2025-05-09 11:08:13,445 - __main__ - ERROR - JSON directory not found: processed_output\json
+2025-05-09 11:09:10,206 - __main__ - ERROR - JSON directory not found: processed_output\json
+2025-05-09 11:18:35,984 - __main__ - INFO - 'processed_output\vector_db_docs.json' not found. Running preprocessing...
+2025-05-09 11:18:35,984 - __main__ - ERROR - Please generate 'processed_output\vector_db_docs.json' first using your preprocessing script.
+2025-05-09 11:18:35,984 - __main__ - ERROR - Failed to load data into Vector DB.
+2025-05-09 11:18:49,764 - __main__ - INFO - 'processed_standards\vector_db_docs.json' not found. Running preprocessing...
+2025-05-09 11:18:49,765 - __main__ - ERROR - Please generate 'processed_standards\vector_db_docs.json' first using your preprocessing script.
+2025-05-09 11:18:49,766 - __main__ - ERROR - Failed to load data into Vector DB.
+2025-05-09 11:18:51,938 - __main__ - INFO - 'processed_standards\vector_db_docs.json' not found. Running preprocessing...
+2025-05-09 11:18:51,940 - __main__ - ERROR - Please generate 'processed_standards\vector_db_docs.json' first using your preprocessing script.
+2025-05-09 11:18:51,940 - __main__ - ERROR - Failed to load data into Vector DB.
+2025-05-09 11:18:58,838 - __main__ - INFO - 'processed_standards\vector_db_docs.json' not found. Running preprocessing...
+2025-05-09 11:18:58,839 - __main__ - ERROR - Please generate 'processed_standards\vector_db_docs.json' first using your preprocessing script.
+2025-05-09 11:18:58,839 - __main__ - ERROR - Failed to load data into Vector DB.
+2025-05-09 11:19:00,891 - __main__ - INFO - 'processed_standards\vector_db_docs.json' not found. Running preprocessing...
+2025-05-09 11:19:00,892 - __main__ - ERROR - Please generate 'processed_standards\vector_db_docs.json' first using your preprocessing script.
+2025-05-09 11:19:00,892 - __main__ - ERROR - Failed to load data into Vector DB.
+2025-05-09 11:19:12,129 - __main__ - INFO - 'processed_standards\vector_db_docs.json' not found. Running preprocessing...
+2025-05-09 11:19:12,131 - __main__ - ERROR - Please generate 'processed_standards\vector_db_docs.json' first using your preprocessing script.
+2025-05-09 11:19:12,132 - __main__ - ERROR - Failed to load data into Vector DB.
+2025-05-09 11:21:07,337 - __main__ - ERROR - CRITICAL: Please update the 'AAOIFI_PDF_INPUT_DIR' variable in this script to point to your PDF files.
+2025-05-09 11:21:07,340 - __main__ - INFO - 'processed_standards\vector_db_docs.json' not found. Attempting to run preprocessing steps...
+2025-05-09 11:21:07,341 - __main__ - ERROR - AAOIFI PDF input directory 'path/to/your/AAOIFI_PDF_Files' does not exist, is empty, or contains no PDF files. Please check the path.
+2025-05-09 11:21:07,341 - __main__ - INFO - Proceeding to load data into ChromaDB...
+2025-05-09 11:21:07,342 - __main__ - ERROR - CRITICAL: The file 'processed_standards\vector_db_docs.json' was not found or generated by preprocessing. Halting.
+2025-05-09 11:21:07,342 - __main__ - ERROR - Failed to load data into Vector DB. Please check logs.

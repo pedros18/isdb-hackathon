@@ -1,0 +1,9 @@
+{
+  "standard_name": "Murabahah Standard X",
+  "feedback_analysis": "Error in LLM call: Connection error.",
+  "stakeholder_categories": "Section 'Stakeholder Categories' not found.",
+  "feedback_patterns": "Section 'Feedback Patterns and Themes' not found.",
+  "feedback_validity": "Section 'Feedback Validity Analysis' not found.",
+  "recommended_refinements": "Section 'Recommended Refinements' not found.",
+  "incorporation_process": "Section 'Feedback Incorporation Process Suggestions' not found."
+}

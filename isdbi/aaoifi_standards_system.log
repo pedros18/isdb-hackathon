@@ -1,0 +1,555 @@
+2025-05-09 22:23:39,129 - __main__ - INFO - AAOIFI Standards Multi-Agent System - Main Execution Start
+2025-05-09 22:23:39,130 - __main__ - INFO - Running demonstration with New Orchestrator & Agents...
+2025-05-09 22:23:39,130 - __main__ - INFO - Starting AAOIFI Standards Multi-Agent System demonstration (New Orchestrator & Agents)
+2025-05-09 22:23:39,131 - AAOIFIStandardsSystem - INFO - Initializing AAOIFI Standards Multi-Agent System (New Orchestrator)
+2025-05-09 22:23:39,509 - VectorDBManagerNew - INFO - VectorDBManagerNew: Connected to/created collection: aaoifi_standards at aaoifi_vector_db
+2025-05-09 22:23:39,511 - AAOIFIStandardsSystem - INFO - System initialization complete (New Orchestrator)
+2025-05-09 22:23:39,511 - __main__ - INFO - Loaded sample standard: Murabahah Standard X
+2025-05-09 22:23:39,512 - AAOIFIStandardsSystem - INFO - Beginning processing of standard: Murabahah Standard X (New Orchestrator)
+2025-05-09 22:23:41,279 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 22:23:41,569 - VectorDBManagerNew - INFO - Added 5 chunks from Murabahah Standard X to vector database
+2025-05-09 22:23:59,446 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 22:23:59,454 - ReviewAgent - INFO - Agent 'ReviewAgent' (Type: generic) executed. Duration: 17.86s
+2025-05-09 22:24:02,315 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 22:24:02,320 - StandardAnalysisAgent - INFO - Agent 'Standard Analysis Agent' (Type: analysis) executed. Duration: 2.86s
+2025-05-09 22:24:18,928 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 22:24:18,930 - EnhancementAgentNew - WARNING - Section 'clarity_improvements' not found in text provided to _extract_section.
+2025-05-09 22:24:18,931 - EnhancementAgentNew - WARNING - Section 'modern_adaptations' not found in text provided to _extract_section.
+2025-05-09 22:24:18,932 - EnhancementAgentNew - WARNING - Section 'tech_integration' not found in text provided to _extract_section.
+2025-05-09 22:24:18,933 - EnhancementAgentNew - WARNING - Section 'cross_references' not found in text provided to _extract_section.
+2025-05-09 22:24:18,935 - EnhancementAgentNew - WARNING - Section 'implementation_guidance' not found in text provided to _extract_section.
+2025-05-09 22:24:18,935 - EnhancementAgentNew - INFO - Agent 'Enhancement Agent (New)' (Type: enhancement) executed. Duration: 16.62s
+2025-05-09 22:24:41,879 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 22:24:41,883 - ShariahComplianceAgent - WARNING - Section 'clarity_improvements ruling' not found in text provided to _extract_section.
+2025-05-09 22:24:41,885 - ShariahComplianceAgent - WARNING - Section 'modern_adaptations ruling' not found in text provided to _extract_section.
+2025-05-09 22:24:41,886 - ShariahComplianceAgent - INFO - Agent 'Shariah Compliance Agent' (Type: shariah_compliance) executed. Duration: 22.95s
+2025-05-09 22:25:01,559 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 22:25:01,565 - ValidationAgentNew - WARNING - Section 'clarity_improvements assessment' not found in text provided to _extract_section.
+2025-05-09 22:25:01,566 - ValidationAgentNew - INFO - Agent 'Validation Agent (New)' (Type: validation) executed. Duration: 19.68s
+2025-05-09 22:25:25,945 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 22:25:25,949 - ReportGenerationAgent - WARNING - Section 'Executive Summary' not found in text provided to _extract_section.
+2025-05-09 22:25:25,951 - ReportGenerationAgent - WARNING - Section 'Standard Analysis' not found in text provided to _extract_section.
+2025-05-09 22:25:25,952 - ReportGenerationAgent - WARNING - Section 'Enhancement Recommendations' not found in text provided to _extract_section.
+2025-05-09 22:25:25,953 - ReportGenerationAgent - WARNING - Section 'Validation Results' not found in text provided to _extract_section.
+2025-05-09 22:25:25,954 - ReportGenerationAgent - WARNING - Section 'Implementation Roadmap' not found in text provided to _extract_section.
+2025-05-09 22:25:25,954 - ReportGenerationAgent - INFO - Agent 'Report Generation Agent' (Type: report) executed. Duration: 24.39s
+2025-05-09 22:25:48,865 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 22:25:48,880 - VisualizationAgent - INFO - Agent 'Visualization Agent' (Type: visualization) executed. Duration: 22.92s
+2025-05-09 22:25:48,882 - AAOIFIStandardsSystem - INFO - Results saved to results\Murabahah_Standard_X_new_orchestrator_results_20250509-222548.json
+2025-05-09 22:25:48,883 - AAOIFIStandardsSystem - INFO - Completed processing of standard: Murabahah Standard X (New Orchestrator)
+2025-05-09 22:25:48,883 - AAOIFIStandardsSystem - INFO - Processing stakeholder feedback (New Orchestrator)
+2025-05-09 22:26:06,619 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 22:26:06,623 - FeedbackAgent - WARNING - Section 'Categorize feedback by stakeholder type' not found in text provided to _extract_section.
+2025-05-09 22:26:06,624 - FeedbackAgent - WARNING - Section 'Identify feedback patterns and themes' not found in text provided to _extract_section.
+2025-05-09 22:26:06,626 - FeedbackAgent - WARNING - Section 'Analyze feedback validity' not found in text provided to _extract_section.
+2025-05-09 22:26:06,627 - FeedbackAgent - WARNING - Section 'Recommend refinements' not found in text provided to _extract_section.
+2025-05-09 22:26:06,628 - FeedbackAgent - WARNING - Section 'Suggest feedback incorporation process' not found in text provided to _extract_section.
+2025-05-09 22:26:06,628 - FeedbackAgent - INFO - Agent 'Feedback Agent' (Type: feedback) executed. Duration: 17.74s
+2025-05-09 22:26:06,630 - AAOIFIStandardsSystem - INFO - Results saved to results\Murabahah_Standard_X_new_orchestrator_feedback_20250509-222606.json
+2025-05-09 22:26:06,806 - __main__ - INFO - Demonstration completed successfully (New Orchestrator & Agents)
+2025-05-09 22:26:06,813 - __main__ - INFO - Demonstration results obtained for standard: Murabahah Standard X
+2025-05-09 22:26:06,814 - __main__ - INFO - Feedback analysis obtained for standard: Murabahah Standard X
+2025-05-09 22:26:06,814 - __main__ - INFO - Main execution finished. Results (if any) saved to results directory.
+2025-05-09 23:06:07,099 - __main__ - INFO - AAOIFI Standards Multi-Agent System - Main Execution Start
+2025-05-09 23:06:07,101 - __main__ - INFO - Running demonstration with New Orchestrator & Agents...
+2025-05-09 23:06:07,101 - __main__ - INFO - Starting AAOIFI Standards Multi-Agent System demonstration (New Orchestrator & Agents)
+2025-05-09 23:06:07,102 - AAOIFIStandardsSystem - INFO - Initializing AAOIFI Standards Multi-Agent System (New Orchestrator)
+2025-05-09 23:06:07,577 - VectorDBManagerNew - INFO - VectorDBManagerNew: Connected to/created collection: aaoifi_standards at aaoifi_vector_db
+2025-05-09 23:06:07,577 - AAOIFIStandardsSystem - INFO - System initialization complete (New Orchestrator)
+2025-05-09 23:06:07,577 - __main__ - INFO - Loaded sample standard: Murabahah Standard X
+2025-05-09 23:06:07,578 - AAOIFIStandardsSystem - INFO - Beginning processing of standard: Murabahah Standard X (New Orchestrator)
+2025-05-09 23:06:08,796 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 23:06:09,030 - VectorDBManagerNew - INFO - Added 5 chunks from Murabahah Standard X to vector database
+2025-05-09 23:06:22,906 - backoff - INFO - Backing off send_request(...) for 0.1s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+2025-05-09 23:06:32,722 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:06:32,725 - ReviewAgent - INFO - Agent 'ReviewAgent' (Type: generic) executed. Duration: 23.67s
+2025-05-09 23:06:37,273 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:06:37,284 - StandardAnalysisAgent - INFO - Agent 'Standard Analysis Agent' (Type: analysis) executed. Duration: 4.56s
+2025-05-09 23:06:55,678 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:06:55,685 - EnhancementAgentNew - WARNING - Section 'clarity_improvements' not found. Text searched (first 300 chars): ### Clarity Improvements
+
+**Section:** Core principles and objectives
+
+**Current Concept:** The standard outlines the conditions, procedures, rules, and modern applications of Murabahah to the Purchase Orderer transactions.
+
+**Proposed Modification:** The standard should provide a more detailed expl
+2025-05-09 23:06:55,688 - EnhancementAgentNew - WARNING - Section 'modern_adaptations' not found. Text searched (first 300 chars): ### Clarity Improvements
+
+**Section:** Core principles and objectives
+
+**Current Concept:** The standard outlines the conditions, procedures, rules, and modern applications of Murabahah to the Purchase Orderer transactions.
+
+**Proposed Modification:** The standard should provide a more detailed expl
+2025-05-09 23:06:55,691 - EnhancementAgentNew - WARNING - Section 'tech_integration' not found. Text searched (first 300 chars): ### Clarity Improvements
+
+**Section:** Core principles and objectives
+
+**Current Concept:** The standard outlines the conditions, procedures, rules, and modern applications of Murabahah to the Purchase Orderer transactions.
+
+**Proposed Modification:** The standard should provide a more detailed expl
+2025-05-09 23:06:55,696 - EnhancementAgentNew - WARNING - Section 'cross_references' not found. Text searched (first 300 chars): ### Clarity Improvements
+
+**Section:** Core principles and objectives
+
+**Current Concept:** The standard outlines the conditions, procedures, rules, and modern applications of Murabahah to the Purchase Orderer transactions.
+
+**Proposed Modification:** The standard should provide a more detailed expl
+2025-05-09 23:06:55,699 - EnhancementAgentNew - WARNING - Section 'implementation_guidance' not found. Text searched (first 300 chars): ### Clarity Improvements
+
+**Section:** Core principles and objectives
+
+**Current Concept:** The standard outlines the conditions, procedures, rules, and modern applications of Murabahah to the Purchase Orderer transactions.
+
+**Proposed Modification:** The standard should provide a more detailed expl
+2025-05-09 23:06:55,701 - EnhancementAgentNew - INFO - Agent 'Enhancement Agent (New)' (Type: enhancement) executed. Duration: 18.41s
+2025-05-09 23:07:03,036 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:07:03,042 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'clarity_improvements' (searched for 'clarity_improvements') from Shariah assessment text.
+2025-05-09 23:07:03,045 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'modern_adaptations' (searched for 'modern_adaptations') from Shariah assessment text.
+2025-05-09 23:07:03,047 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'tech_integration' (searched for 'tech_integration') from Shariah assessment text.
+2025-05-09 23:07:03,048 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'cross_references' (searched for 'cross_references') from Shariah assessment text.
+2025-05-09 23:07:03,050 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'implementation_guidance' (searched for 'implementation_guidance') from Shariah assessment text.
+2025-05-09 23:07:03,051 - ShariahComplianceAgent - INFO - Agent 'Shariah Compliance Agent' (Type: shariah_compliance) executed. Duration: 7.35s
+2025-05-09 23:07:20,415 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:07:20,429 - ValidationAgentNew - INFO - Agent 'Validation Agent (New)' (Type: validation) executed. Duration: 17.38s
+2025-05-09 23:07:46,079 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:07:46,084 - ReportGenerationAgent - INFO - Agent 'Report Generation Agent' (Type: report) executed. Duration: 25.65s
+2025-05-09 23:08:14,942 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:08:14,951 - VisualizationAgent - INFO - Agent 'Visualization Agent' (Type: visualization) executed. Duration: 28.87s
+2025-05-09 23:08:14,953 - AAOIFIStandardsSystem - INFO - Results saved to results\Murabahah_Standard_X_new_orchestrator_results_20250509-230814.json
+2025-05-09 23:08:14,954 - AAOIFIStandardsSystem - INFO - Completed processing of standard: Murabahah Standard X (New Orchestrator)
+2025-05-09 23:08:14,955 - AAOIFIStandardsSystem - INFO - Processing stakeholder feedback (New Orchestrator)
+2025-05-09 23:08:45,040 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:08:45,045 - FeedbackAgent - INFO - Agent 'Feedback Agent' (Type: feedback) executed. Duration: 30.09s
+2025-05-09 23:08:45,047 - AAOIFIStandardsSystem - INFO - Results saved to results\Murabahah_Standard_X_new_orchestrator_feedback_20250509-230845.json
+2025-05-09 23:08:45,171 - __main__ - INFO - Demonstration completed successfully (New Orchestrator & Agents)
+2025-05-09 23:08:45,172 - __main__ - INFO - Demonstration results obtained for standard: Murabahah Standard X
+2025-05-09 23:08:45,172 - __main__ - INFO - Feedback analysis obtained for standard: Murabahah Standard X
+2025-05-09 23:08:45,173 - __main__ - INFO - Main execution finished. Results (if any) saved to results directory.
+2025-05-09 23:27:02,460 - __main__ - INFO - AAOIFI Standards Multi-Agent System - Main Execution Start
+2025-05-09 23:27:02,461 - __main__ - INFO - Running demonstration with New Orchestrator & Agents...
+2025-05-09 23:27:02,462 - __main__ - INFO - Starting AAOIFI Standards Multi-Agent System demonstration (New Orchestrator & Agents)
+2025-05-09 23:27:02,462 - AAOIFIStandardsSystem - INFO - Initializing AAOIFI Standards Multi-Agent System (New Orchestrator)
+2025-05-09 23:27:02,978 - VectorDBManagerNew - INFO - VectorDBManagerNew: Connected to/created collection: aaoifi_standards at aaoifi_vector_db
+2025-05-09 23:27:02,979 - AAOIFIStandardsSystem - INFO - System initialization complete (New Orchestrator)
+2025-05-09 23:27:02,980 - __main__ - INFO - Loaded sample standard: Murabahah Standard X
+2025-05-09 23:27:02,980 - AAOIFIStandardsSystem - INFO - Beginning processing of standard: Murabahah Standard X (New Orchestrator)
+2025-05-09 23:27:04,632 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 23:27:05,028 - VectorDBManagerNew - INFO - Added 5 chunks from Murabahah Standard X to vector database
+2025-05-09 23:27:27,266 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:27:27,270 - ReviewAgent - INFO - Agent 'ReviewAgent' (Type: generic) executed. Duration: 22.19s
+2025-05-09 23:27:32,023 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:27:32,026 - StandardAnalysisAgent - WARNING - Section 'Challenges' (processed as 'Challenges?') not found. Text searched (first 300 chars): ## Challenges
+1. Lack of clarity on the distinction between Murabahah to the Purchase Orderer and simple Murabahah transactions could lead to confusion and misinterpretation by practitioners.
+2. The standard's focus on Murabahah to the Purchase Orderer may limit its applicability to a broader range 
+2025-05-09 23:27:32,027 - StandardAnalysisAgent - WARNING - Section 'Improvement Areas' (processed as 'Improvement\ Areas?') not found. Text searched (first 300 chars): ## Challenges
+1. Lack of clarity on the distinction between Murabahah to the Purchase Orderer and simple Murabahah transactions could lead to confusion and misinterpretation by practitioners.
+2. The standard's focus on Murabahah to the Purchase Orderer may limit its applicability to a broader range 
+2025-05-09 23:27:32,028 - StandardAnalysisAgent - INFO - Agent 'Standard Analysis Agent' (Type: analysis) executed. Duration: 4.76s
+2025-05-09 23:27:52,717 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:27:52,719 - EnhancementAgentNew - WARNING - Section 'clarity_improvements' (processed as 'clarity\ improvements?') not found. Text searched (first 300 chars): ### clarity_improvements
+- **Section:** Main requirements and procedures
+- **Current Concept:** The IFI must bear the risks of ownership during the period between purchasing the asset and selling it to the customer.
+- **Proposed Modification:** The IFI must bear the risks of ownership, including but
+2025-05-09 23:27:52,720 - EnhancementAgentNew - WARNING - Section 'modern_adaptations' (processed as 'modern\ adaptations?') not found. Text searched (first 300 chars): ### clarity_improvements
+- **Section:** Main requirements and procedures
+- **Current Concept:** The IFI must bear the risks of ownership during the period between purchasing the asset and selling it to the customer.
+- **Proposed Modification:** The IFI must bear the risks of ownership, including but
+2025-05-09 23:27:52,721 - EnhancementAgentNew - WARNING - Section 'tech_integration' (processed as 'tech\ integration') not found. Text searched (first 300 chars): ### clarity_improvements
+- **Section:** Main requirements and procedures
+- **Current Concept:** The IFI must bear the risks of ownership during the period between purchasing the asset and selling it to the customer.
+- **Proposed Modification:** The IFI must bear the risks of ownership, including but
+2025-05-09 23:27:52,722 - EnhancementAgentNew - WARNING - Section 'cross_references' (processed as 'cross\ references?') not found. Text searched (first 300 chars): ### clarity_improvements
+- **Section:** Main requirements and procedures
+- **Current Concept:** The IFI must bear the risks of ownership during the period between purchasing the asset and selling it to the customer.
+- **Proposed Modification:** The IFI must bear the risks of ownership, including but
+2025-05-09 23:27:52,723 - EnhancementAgentNew - WARNING - Section 'implementation_guidance' (processed as 'implementation\ guidance') not found. Text searched (first 300 chars): ### clarity_improvements
+- **Section:** Main requirements and procedures
+- **Current Concept:** The IFI must bear the risks of ownership during the period between purchasing the asset and selling it to the customer.
+- **Proposed Modification:** The IFI must bear the risks of ownership, including but
+2025-05-09 23:27:52,724 - EnhancementAgentNew - INFO - Agent 'Enhancement Agent (New)' (Type: enhancement) executed. Duration: 20.69s
+2025-05-09 23:27:57,272 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:27:57,276 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'clarity_improvements' from Shariah assessment text using pattern for 'clarity[\s_]*improvements'. Full text searched (first 500 char of shariah_text): I'm sorry, but I can't provide the assessment as you requested because the content for the proposed enhancements (clarity_improvements, modern_adaptations, tech_integration, cross_references, implementation_guidance) was not properly extracted previously. I need specific details about these proposed enhancements to make a proper Shariah assessment.
+2025-05-09 23:27:57,277 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'modern_adaptations' from Shariah assessment text using pattern for 'modern[\s_]*adaptations'. Full text searched (first 500 char of shariah_text): I'm sorry, but I can't provide the assessment as you requested because the content for the proposed enhancements (clarity_improvements, modern_adaptations, tech_integration, cross_references, implementation_guidance) was not properly extracted previously. I need specific details about these proposed enhancements to make a proper Shariah assessment.
+2025-05-09 23:27:57,278 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'tech_integration' from Shariah assessment text using pattern for 'tech[\s_]*integration'. Full text searched (first 500 char of shariah_text): I'm sorry, but I can't provide the assessment as you requested because the content for the proposed enhancements (clarity_improvements, modern_adaptations, tech_integration, cross_references, implementation_guidance) was not properly extracted previously. I need specific details about these proposed enhancements to make a proper Shariah assessment.
+2025-05-09 23:27:57,279 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'cross_references' from Shariah assessment text using pattern for 'cross[\s_]*references'. Full text searched (first 500 char of shariah_text): I'm sorry, but I can't provide the assessment as you requested because the content for the proposed enhancements (clarity_improvements, modern_adaptations, tech_integration, cross_references, implementation_guidance) was not properly extracted previously. I need specific details about these proposed enhancements to make a proper Shariah assessment.
+2025-05-09 23:27:57,280 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'implementation_guidance' from Shariah assessment text using pattern for 'implementation[\s_]*guidance'. Full text searched (first 500 char of shariah_text): I'm sorry, but I can't provide the assessment as you requested because the content for the proposed enhancements (clarity_improvements, modern_adaptations, tech_integration, cross_references, implementation_guidance) was not properly extracted previously. I need specific details about these proposed enhancements to make a proper Shariah assessment.
+2025-05-09 23:27:57,281 - ShariahComplianceAgent - WARNING - Section 'Shariah Assessment Summary' (processed as 'Shariah\ Assessment\ Summary') not found. Text searched (first 300 chars): I'm sorry, but I can't provide the assessment as you requested because the content for the proposed enhancements (clarity_improvements, modern_adaptations, tech_integration, cross_references, implementation_guidance) was not properly extracted previously. I need specific details about these proposed
+2025-05-09 23:27:57,282 - ShariahComplianceAgent - INFO - Agent 'Shariah Compliance Agent' (Type: shariah_compliance) executed. Duration: 4.56s
+2025-05-09 23:28:15,096 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:28:15,100 - ValidationAgentNew - WARNING - Section 'Overall Validation Summary' (processed as 'Overall\ Validation\ Summary') not found. Text searched (first 300 chars): ## Overall Validation Summary
+
+The proposed enhancements for the Murabahah Standard X are generally valid and beneficial. They provide clarity, adapt to modern practices, integrate technology, and improve cross-referencing. However, the Shariah assessment for each category is missing, which is cruci
+2025-05-09 23:28:15,102 - ValidationAgentNew - WARNING - Section 'Clarity Improvements Assessment' (processed as 'Clarity\ Improvements\ Assessment') not found. Text searched (first 300 chars): ## Overall Validation Summary
+
+The proposed enhancements for the Murabahah Standard X are generally valid and beneficial. They provide clarity, adapt to modern practices, integrate technology, and improve cross-referencing. However, the Shariah assessment for each category is missing, which is cruci
+2025-05-09 23:28:15,103 - ValidationAgentNew - WARNING - Section 'Modern Adaptations Assessment' (processed as 'Modern\ Adaptations\ Assessment') not found. Text searched (first 300 chars): ## Overall Validation Summary
+
+The proposed enhancements for the Murabahah Standard X are generally valid and beneficial. They provide clarity, adapt to modern practices, integrate technology, and improve cross-referencing. However, the Shariah assessment for each category is missing, which is cruci
+2025-05-09 23:28:15,104 - ValidationAgentNew - WARNING - Section 'Tech Integration Assessment' (processed as 'Tech\ Integration\ Assessment') not found. Text searched (first 300 chars): ## Overall Validation Summary
+
+The proposed enhancements for the Murabahah Standard X are generally valid and beneficial. They provide clarity, adapt to modern practices, integrate technology, and improve cross-referencing. However, the Shariah assessment for each category is missing, which is cruci
+2025-05-09 23:28:15,105 - ValidationAgentNew - WARNING - Section 'Cross References Assessment' (processed as 'Cross\ References\ Assessment') not found. Text searched (first 300 chars): ## Overall Validation Summary
+
+The proposed enhancements for the Murabahah Standard X are generally valid and beneficial. They provide clarity, adapt to modern practices, integrate technology, and improve cross-referencing. However, the Shariah assessment for each category is missing, which is cruci
+2025-05-09 23:28:15,106 - ValidationAgentNew - WARNING - Section 'Implementation Guidance Assessment' (processed as 'Implementation\ Guidance\ Assessment') not found. Text searched (first 300 chars): ## Overall Validation Summary
+
+The proposed enhancements for the Murabahah Standard X are generally valid and beneficial. They provide clarity, adapt to modern practices, integrate technology, and improve cross-referencing. However, the Shariah assessment for each category is missing, which is cruci
+2025-05-09 23:28:15,107 - ValidationAgentNew - INFO - Agent 'Validation Agent (New)' (Type: validation) executed. Duration: 17.82s
+2025-05-09 23:28:25,891 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:28:25,898 - ReportGenerationAgent - WARNING - Section 'Executive Summary' (processed as 'Executive\ Summary') not found. Text searched (first 300 chars): # Executive Summary
+
+This report provides a comprehensive analysis of the Murabahah Standard X in Islamic finance. The report identifies key challenges, proposes enhancements, and provides a roadmap for implementation. However, due to missing sections in the provided data, a complete analysis could 
+2025-05-09 23:28:25,900 - ReportGenerationAgent - WARNING - Section 'Standard Analysis' (processed as 'Standard\ Analysis?') not found. Text searched (first 300 chars): # Executive Summary
+
+This report provides a comprehensive analysis of the Murabahah Standard X in Islamic finance. The report identifies key challenges, proposes enhancements, and provides a roadmap for implementation. However, due to missing sections in the provided data, a complete analysis could 
+2025-05-09 23:28:25,901 - ReportGenerationAgent - WARNING - Section 'Enhancement Recommendations' (processed as 'Enhancement\ Recommendations?') not found. Text searched (first 300 chars): # Executive Summary
+
+This report provides a comprehensive analysis of the Murabahah Standard X in Islamic finance. The report identifies key challenges, proposes enhancements, and provides a roadmap for implementation. However, due to missing sections in the provided data, a complete analysis could 
+2025-05-09 23:28:25,902 - ReportGenerationAgent - WARNING - Section 'Validation Results' (processed as 'Validation\ Results?') not found. Text searched (first 300 chars): # Executive Summary
+
+This report provides a comprehensive analysis of the Murabahah Standard X in Islamic finance. The report identifies key challenges, proposes enhancements, and provides a roadmap for implementation. However, due to missing sections in the provided data, a complete analysis could 
+2025-05-09 23:28:25,903 - ReportGenerationAgent - WARNING - Section 'Implementation Roadmap' (processed as 'Implementation\ Roadmap') not found. Text searched (first 300 chars): # Executive Summary
+
+This report provides a comprehensive analysis of the Murabahah Standard X in Islamic finance. The report identifies key challenges, proposes enhancements, and provides a roadmap for implementation. However, due to missing sections in the provided data, a complete analysis could 
+2025-05-09 23:28:25,904 - ReportGenerationAgent - INFO - Agent 'Report Generation Agent' (Type: report) executed. Duration: 10.80s
+2025-05-09 23:28:47,250 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:28:47,254 - VisualizationAgent - WARNING - Section 'Enhancement Impact Matrix' (processed as 'Enhancement\ Impact\ Matrix') not found. Text searched (first 300 chars): ## Enhancement Impact Matrix
+
+**Title:** Murabahah Standard X Enhancement Impact Matrix
+
+**Description:** This matrix will visualize the impact of various enhancements on the Murabahah Standard X. The enhancements include clarity improvements, modern adaptations, tech integration, cross references, 
+2025-05-09 23:28:47,255 - VisualizationAgent - WARNING - Section 'Shariah Compliance Visualization' (processed as 'Shariah\ Compliance\ Visualization') not found. Text searched (first 300 chars): ## Enhancement Impact Matrix
+
+**Title:** Murabahah Standard X Enhancement Impact Matrix
+
+**Description:** This matrix will visualize the impact of various enhancements on the Murabahah Standard X. The enhancements include clarity improvements, modern adaptations, tech integration, cross references, 
+2025-05-09 23:28:47,256 - VisualizationAgent - WARNING - Section 'Implementation Roadmap Timeline' (processed as 'Implementation\ Roadmap\ Timeline') not found. Text searched (first 300 chars): ## Enhancement Impact Matrix
+
+**Title:** Murabahah Standard X Enhancement Impact Matrix
+
+**Description:** This matrix will visualize the impact of various enhancements on the Murabahah Standard X. The enhancements include clarity improvements, modern adaptations, tech integration, cross references, 
+2025-05-09 23:28:47,257 - VisualizationAgent - WARNING - Section 'Stakeholder Impact Analysis' (processed as 'Stakeholder\ Impact\ Analysis?') not found. Text searched (first 300 chars): ## Enhancement Impact Matrix
+
+**Title:** Murabahah Standard X Enhancement Impact Matrix
+
+**Description:** This matrix will visualize the impact of various enhancements on the Murabahah Standard X. The enhancements include clarity improvements, modern adaptations, tech integration, cross references, 
+2025-05-09 23:28:47,258 - VisualizationAgent - INFO - Agent 'Visualization Agent' (Type: visualization) executed. Duration: 21.35s
+2025-05-09 23:28:47,260 - AAOIFIStandardsSystem - INFO - Results saved to results\Murabahah_Standard_X_new_orchestrator_results_20250509-232847.json
+2025-05-09 23:28:47,260 - AAOIFIStandardsSystem - INFO - Completed processing of standard: Murabahah Standard X (New Orchestrator)
+2025-05-09 23:28:47,261 - AAOIFIStandardsSystem - INFO - Processing stakeholder feedback (New Orchestrator)
+2025-05-09 23:29:07,034 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:29:07,037 - FeedbackAgent - WARNING - Section 'Stakeholder Categories' (processed as 'Stakeholder\ Categories?') not found. Text searched (first 300 chars): ## Stakeholder Categories
+1. Islamic Financial Institutions (IFIs)
+2. Shariah Scholars
+3. Regulators
+
+## Feedback Patterns and Themes
+1. **Technological Integration:** IFIs expressed concerns about the complexity of implementing blockchain technology for Murabahah tracking.
+2. **Documentation Guidel
+2025-05-09 23:29:07,039 - FeedbackAgent - WARNING - Section 'Feedback Patterns and Themes' (processed as 'Feedback\ Patterns\ and\ Themes?') not found. Text searched (first 300 chars): ## Stakeholder Categories
+1. Islamic Financial Institutions (IFIs)
+2. Shariah Scholars
+3. Regulators
+
+## Feedback Patterns and Themes
+1. **Technological Integration:** IFIs expressed concerns about the complexity of implementing blockchain technology for Murabahah tracking.
+2. **Documentation Guidel
+2025-05-09 23:29:07,041 - FeedbackAgent - WARNING - Section 'Feedback Validity Analysis' (processed as 'Feedback\ Validity\ Analysis?') not found. Text searched (first 300 chars): ## Stakeholder Categories
+1. Islamic Financial Institutions (IFIs)
+2. Shariah Scholars
+3. Regulators
+
+## Feedback Patterns and Themes
+1. **Technological Integration:** IFIs expressed concerns about the complexity of implementing blockchain technology for Murabahah tracking.
+2. **Documentation Guidel
+2025-05-09 23:29:07,041 - FeedbackAgent - WARNING - Section 'Recommended Refinements' (processed as 'Recommended\ Refinements?') not found. Text searched (first 300 chars): ## Stakeholder Categories
+1. Islamic Financial Institutions (IFIs)
+2. Shariah Scholars
+3. Regulators
+
+## Feedback Patterns and Themes
+1. **Technological Integration:** IFIs expressed concerns about the complexity of implementing blockchain technology for Murabahah tracking.
+2. **Documentation Guidel
+2025-05-09 23:29:07,043 - FeedbackAgent - WARNING - Section 'Feedback Incorporation Process Suggestions' (processed as 'Feedback\ Incorporation\ Process\ Suggestions?') not found. Text searched (first 300 chars): ## Stakeholder Categories
+1. Islamic Financial Institutions (IFIs)
+2. Shariah Scholars
+3. Regulators
+
+## Feedback Patterns and Themes
+1. **Technological Integration:** IFIs expressed concerns about the complexity of implementing blockchain technology for Murabahah tracking.
+2. **Documentation Guidel
+2025-05-09 23:29:07,043 - FeedbackAgent - INFO - Agent 'Feedback Agent' (Type: feedback) executed. Duration: 19.78s
+2025-05-09 23:29:07,044 - AAOIFIStandardsSystem - INFO - Results saved to results\Murabahah_Standard_X_new_orchestrator_feedback_20250509-232907.json
+2025-05-09 23:29:07,045 - __main__ - INFO - No valid Shariah ruling data (Approved, Conditionally Approved, etc.) to visualize after filtering.
+2025-05-09 23:29:07,045 - __main__ - INFO - Demonstration completed successfully (New Orchestrator & Agents)
+2025-05-09 23:29:07,046 - __main__ - INFO - Demonstration results obtained for standard: Murabahah Standard X
+2025-05-09 23:29:07,046 - __main__ - INFO - Feedback analysis obtained for standard: Murabahah Standard X
+2025-05-09 23:29:07,048 - __main__ - INFO - Main execution finished. Results (if any) saved to results directory.
+2025-05-09 23:35:29,127 - __main__ - INFO - Starting AAOIFI Standards Multi-Agent System demonstration
+2025-05-09 23:35:29,128 - __main__ - INFO - Initializing AAOIFI Standards Multi-Agent System
+2025-05-09 23:35:29,562 - __main__ - INFO - Connected to existing collection: aaoifi_standards
+2025-05-09 23:35:29,563 - __main__ - INFO - System initialization complete
+2025-05-09 23:35:29,564 - __main__ - INFO - Loaded sample standard: Murabahah Standard
+2025-05-09 23:35:29,564 - __main__ - INFO - Beginning processing of standard: Murabahah Standard
+2025-05-09 23:35:31,659 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 23:35:32,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 23:35:33,284 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 23:35:34,139 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 23:35:34,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 23:35:34,959 - __main__ - INFO - Added 5 chunks from Murabahah Standard to vector database
+2025-05-09 23:35:34,960 - __main__ - INFO - Starting document review phase
+2025-05-09 23:35:57,902 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:35:57,905 - ReviewAgent - INFO - Agent 'ReviewAgent' (Type: generic) executed. Duration: 22.91s
+2025-05-09 23:35:57,906 - __main__ - INFO - Starting standard analysis phase
+2025-05-09 23:36:01,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:36:01,192 - StandardAnalysisAgent - WARNING - Section 'Challenges' (processed as 'Challenges?') not found. Text searched (first 300 chars): ## Challenges
+1. Lack of clarity in defining the roles and responsibilities of the IFI and the customer in the Murabahah transaction process.
+2. Potential ambiguity in distinguishing between morally binding promises and legally enforceable contracts, which could lead to disputes.
+3. Limited guidance
+2025-05-09 23:36:01,193 - StandardAnalysisAgent - WARNING - Section 'Improvement Areas' (processed as 'Improvement\ Areas?') not found. Text searched (first 300 chars): ## Challenges
+1. Lack of clarity in defining the roles and responsibilities of the IFI and the customer in the Murabahah transaction process.
+2. Potential ambiguity in distinguishing between morally binding promises and legally enforceable contracts, which could lead to disputes.
+3. Limited guidance
+2025-05-09 23:36:01,194 - StandardAnalysisAgent - INFO - Agent 'Standard Analysis Agent' (Type: analysis) executed. Duration: 3.29s
+2025-05-09 23:36:01,194 - __main__ - INFO - Starting enhancement proposal phase
+2025-05-09 23:36:01,196 - __main__ - ERROR - Error in demonstration: EnhancementAgent.execute() takes 2 positional arguments but 3 were given
+2025-05-09 23:36:30,601 - __main__ - INFO - Starting AAOIFI Standards Multi-Agent System demonstration
+2025-05-09 23:36:30,602 - __main__ - INFO - Initializing AAOIFI Standards Multi-Agent System
+2025-05-09 23:36:30,854 - __main__ - INFO - Connected to existing collection: aaoifi_standards
+2025-05-09 23:36:30,855 - __main__ - INFO - System initialization complete
+2025-05-09 23:36:30,855 - __main__ - INFO - Loaded sample standard: Murabahah Standard
+2025-05-09 23:36:30,856 - __main__ - INFO - Beginning processing of standard: Murabahah Standard
+2025-05-09 23:36:32,029 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 23:36:33,107 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 23:36:33,979 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 23:36:34,740 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 23:36:35,146 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 23:36:35,193 - __main__ - INFO - Added 5 chunks from Murabahah Standard to vector database
+2025-05-09 23:36:35,194 - __main__ - INFO - Starting document review phase
+2025-05-09 23:36:59,188 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:36:59,192 - ReviewAgent - INFO - Agent 'ReviewAgent' (Type: generic) executed. Duration: 23.97s
+2025-05-09 23:36:59,193 - __main__ - INFO - Starting standard analysis phase
+2025-05-09 23:37:02,336 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:37:02,338 - StandardAnalysisAgent - WARNING - Section 'Challenges' (processed as 'Challenges?') not found. Text searched (first 300 chars): ## Challenges
+1. Lack of clarity in defining the roles and responsibilities of the parties involved in a Murabahah transaction could lead to misunderstandings or disputes.
+2. The distinction between morally binding promises and legally enforceable contracts may create ambiguity in terms of recourse 
+2025-05-09 23:37:02,339 - StandardAnalysisAgent - WARNING - Section 'Improvement Areas' (processed as 'Improvement\ Areas?') not found. Text searched (first 300 chars): ## Challenges
+1. Lack of clarity in defining the roles and responsibilities of the parties involved in a Murabahah transaction could lead to misunderstandings or disputes.
+2. The distinction between morally binding promises and legally enforceable contracts may create ambiguity in terms of recourse 
+2025-05-09 23:37:02,340 - StandardAnalysisAgent - INFO - Agent 'Standard Analysis Agent' (Type: analysis) executed. Duration: 3.15s
+2025-05-09 23:37:02,343 - __main__ - INFO - Starting enhancement proposal phase
+2025-05-09 23:37:02,344 - __main__ - ERROR - Error in demonstration: EnhancementAgent.execute() takes 2 positional arguments but 3 were given
+2025-05-09 23:37:20,893 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:37:35,584 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:37:49,352 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:38:07,912 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:38:11,347 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:38:21,269 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:39:14,899 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:39:36,809 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:39:54,557 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:40:16,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:43:02,217 - __main__ - INFO - AAOIFI Standards Multi-Agent System - Main Execution Start
+2025-05-09 23:43:02,219 - __main__ - INFO - Running demonstration with New Orchestrator & Agents...
+2025-05-09 23:43:02,220 - __main__ - INFO - Starting AAOIFI Standards Multi-Agent System demonstration (New Orchestrator & Agents)
+2025-05-09 23:43:02,220 - AAOIFIStandardsSystem - INFO - Initializing AAOIFI Standards Multi-Agent System (New Orchestrator)
+2025-05-09 23:43:02,588 - VectorDBManagerNew - INFO - VectorDBManagerNew: Connected to/created collection: aaoifi_standards at aaoifi_vector_db
+2025-05-09 23:43:02,589 - AAOIFIStandardsSystem - INFO - System initialization complete (New Orchestrator)
+2025-05-09 23:43:02,589 - __main__ - INFO - Loaded sample standard: Murabahah Standard X
+2025-05-09 23:43:02,590 - AAOIFIStandardsSystem - INFO - Beginning processing of standard: Murabahah Standard X (New Orchestrator)
+2025-05-09 23:43:04,701 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-09 23:43:05,062 - VectorDBManagerNew - INFO - Added 5 chunks from Murabahah Standard X to vector database
+2025-05-09 23:43:29,187 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:43:29,198 - ReviewAgent - INFO - Agent 'ReviewAgent' (Type: generic) executed. Duration: 24.11s
+2025-05-09 23:43:32,471 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:43:32,475 - StandardAnalysisAgent - INFO - Agent 'Standard Analysis Agent' (Type: analysis) executed. Duration: 3.27s
+2025-05-09 23:43:52,396 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-09 23:43:52,560 - EnhancementAgentNew - WARNING - Section 'clarity_improvements' not found. Text searched (first 300 chars): ### Clarity Improvements
+
+**Section:** Core principles and objectives
+
+**Current Concept:** The standard outlines the conditions, procedures, rules, and modern applications of Murabahah transactions.
+
+**Proposed Modification:** The standard should provide a more detailed explanation of the core prin
+2025-05-09 23:43:52,561 - EnhancementAgentNew - WARNING - Section 'modern_adaptations' not found. Text searched (first 300 chars): ### Clarity Improvements
+
+**Section:** Core principles and objectives
+
+**Current Concept:** The standard outlines the conditions, procedures, rules, and modern applications of Murabahah transactions.
+
+**Proposed Modification:** The standard should provide a more detailed explanation of the core prin
+2025-05-09 23:43:52,562 - EnhancementAgentNew - WARNING - Section 'tech_integration' not found. Text searched (first 300 chars): ### Clarity Improvements
+
+**Section:** Core principles and objectives
+
+**Current Concept:** The standard outlines the conditions, procedures, rules, and modern applications of Murabahah transactions.
+
+**Proposed Modification:** The standard should provide a more detailed explanation of the core prin
+2025-05-09 23:43:52,562 - EnhancementAgentNew - WARNING - Section 'cross_references' not found. Text searched (first 300 chars): ### Clarity Improvements
+
+**Section:** Core principles and objectives
+
+**Current Concept:** The standard outlines the conditions, procedures, rules, and modern applications of Murabahah transactions.
+
+**Proposed Modification:** The standard should provide a more detailed explanation of the core prin
+2025-05-09 23:43:52,563 - EnhancementAgentNew - WARNING - Section 'implementation_guidance' not found. Text searched (first 300 chars): ### Clarity Improvements
+
+**Section:** Core principles and objectives
+
+**Current Concept:** The standard outlines the conditions, procedures, rules, and modern applications of Murabahah transactions.
+
+**Proposed Modification:** The standard should provide a more detailed explanation of the core prin
+2025-05-09 23:43:52,564 - EnhancementAgentNew - INFO - Agent 'Enhancement Agent (New)' (Type: enhancement) executed. Duration: 20.09s
+2025-05-09 23:44:03,649 - openai._base_client - INFO - Retrying request to /chat/completions in 0.410695 seconds
+2025-05-09 23:44:04,061 - openai._base_client - INFO - Retrying request to /chat/completions in 0.750837 seconds
+2025-05-09 23:44:04,815 - ShariahComplianceAgent - ERROR - Error running LLM chain for agent Shariah Compliance Agent: Connection error.
+2025-05-09 23:44:04,817 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'clarity_improvements' (searched for 'clarity_improvements') from Shariah assessment text.
+2025-05-09 23:44:04,817 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'modern_adaptations' (searched for 'modern_adaptations') from Shariah assessment text.
+2025-05-09 23:44:04,818 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'tech_integration' (searched for 'tech_integration') from Shariah assessment text.
+2025-05-09 23:44:04,819 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'cross_references' (searched for 'cross_references') from Shariah assessment text.
+2025-05-09 23:44:04,820 - ShariahComplianceAgent - WARNING - Could not parse ruling for category 'implementation_guidance' (searched for 'implementation_guidance') from Shariah assessment text.
+2025-05-09 23:44:04,821 - ShariahComplianceAgent - WARNING - Section 'Shariah Assessment Summary' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:04,822 - ShariahComplianceAgent - INFO - Agent 'Shariah Compliance Agent' (Type: shariah_compliance) executed. Duration: 12.26s
+2025-05-09 23:44:04,824 - openai._base_client - INFO - Retrying request to /chat/completions in 0.432952 seconds
+2025-05-09 23:44:05,260 - openai._base_client - INFO - Retrying request to /chat/completions in 0.766845 seconds
+2025-05-09 23:44:06,036 - ValidationAgentNew - ERROR - Error running LLM chain for agent Validation Agent (New): Connection error.
+2025-05-09 23:44:06,037 - ValidationAgentNew - WARNING - Section 'Overall Validation Summary' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:06,039 - ValidationAgentNew - WARNING - Section 'Clarity Improvements Assessment' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:06,041 - ValidationAgentNew - WARNING - Section 'Modern Adaptations Assessment' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:06,042 - ValidationAgentNew - WARNING - Section 'Tech Integration Assessment' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:06,043 - ValidationAgentNew - WARNING - Section 'Cross References Assessment' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:06,044 - ValidationAgentNew - WARNING - Section 'Implementation Guidance Assessment' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:06,044 - ValidationAgentNew - INFO - Agent 'Validation Agent (New)' (Type: validation) executed. Duration: 1.22s
+2025-05-09 23:44:06,048 - openai._base_client - INFO - Retrying request to /chat/completions in 0.484478 seconds
+2025-05-09 23:44:06,534 - openai._base_client - INFO - Retrying request to /chat/completions in 0.884693 seconds
+2025-05-09 23:44:07,422 - ReportGenerationAgent - ERROR - Error running LLM chain for agent Report Generation Agent: Connection error.
+2025-05-09 23:44:07,424 - ReportGenerationAgent - WARNING - Section 'Executive Summary' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:07,425 - ReportGenerationAgent - WARNING - Section 'Standard Analysis' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:07,427 - ReportGenerationAgent - WARNING - Section 'Enhancement Recommendations' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:07,428 - ReportGenerationAgent - WARNING - Section 'Validation Results' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:07,428 - ReportGenerationAgent - WARNING - Section 'Implementation Roadmap' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:07,429 - ReportGenerationAgent - INFO - Agent 'Report Generation Agent' (Type: report) executed. Duration: 1.38s
+2025-05-09 23:44:07,432 - openai._base_client - INFO - Retrying request to /chat/completions in 0.426372 seconds
+2025-05-09 23:44:07,860 - openai._base_client - INFO - Retrying request to /chat/completions in 0.974161 seconds
+2025-05-09 23:44:08,837 - VisualizationAgent - ERROR - Error running LLM chain for agent Visualization Agent: Connection error.
+2025-05-09 23:44:08,839 - VisualizationAgent - WARNING - Section 'Enhancement Impact Matrix' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:08,842 - VisualizationAgent - WARNING - Section 'Shariah Compliance Visualization' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:08,843 - VisualizationAgent - WARNING - Section 'Implementation Roadmap Timeline' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:08,846 - VisualizationAgent - WARNING - Section 'Stakeholder Impact Analysis' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:08,848 - VisualizationAgent - INFO - Agent 'Visualization Agent' (Type: visualization) executed. Duration: 1.42s
+2025-05-09 23:44:08,853 - AAOIFIStandardsSystem - INFO - Results saved to results\Murabahah_Standard_X_new_orchestrator_results_20250509-234408.json
+2025-05-09 23:44:08,855 - AAOIFIStandardsSystem - INFO - Completed processing of standard: Murabahah Standard X (New Orchestrator)
+2025-05-09 23:44:08,856 - AAOIFIStandardsSystem - INFO - Processing stakeholder feedback (New Orchestrator)
+2025-05-09 23:44:08,861 - openai._base_client - INFO - Retrying request to /chat/completions in 0.489510 seconds
+2025-05-09 23:44:09,355 - openai._base_client - INFO - Retrying request to /chat/completions in 0.990145 seconds
+2025-05-09 23:44:10,350 - FeedbackAgent - ERROR - Error running LLM chain for agent Feedback Agent: Connection error.
+2025-05-09 23:44:10,353 - FeedbackAgent - WARNING - Section 'Stakeholder Categories' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:10,355 - FeedbackAgent - WARNING - Section 'Feedback Patterns and Themes' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:10,359 - FeedbackAgent - WARNING - Section 'Feedback Validity Analysis' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:10,361 - FeedbackAgent - WARNING - Section 'Recommended Refinements' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:10,363 - FeedbackAgent - WARNING - Section 'Feedback Incorporation Process Suggestions' not found. Text searched (first 300 chars): Error in LLM call: Connection error.
+2025-05-09 23:44:10,364 - FeedbackAgent - INFO - Agent 'Feedback Agent' (Type: feedback) executed. Duration: 1.51s
+2025-05-09 23:44:10,369 - AAOIFIStandardsSystem - INFO - Results saved to results\Murabahah_Standard_X_new_orchestrator_feedback_20250509-234410.json
+2025-05-09 23:44:10,588 - __main__ - INFO - Demonstration completed successfully (New Orchestrator & Agents)
+2025-05-09 23:44:10,589 - __main__ - INFO - Demonstration results obtained for standard: Murabahah Standard X
+2025-05-09 23:44:10,589 - __main__ - INFO - Feedback analysis obtained for standard: Murabahah Standard X
+2025-05-09 23:44:10,590 - __main__ - INFO - Main execution finished. Results (if any) saved to results directory.
+2025-05-10 00:33:45,686 - __main__ - INFO - AAOIFI Standards Multi-Agent System - Main Execution Start
+2025-05-10 00:33:45,689 - __main__ - INFO - Running demonstration with New Orchestrator & Agents...
+2025-05-10 00:33:45,692 - __main__ - INFO - Starting AAOIFI Standards Multi-Agent System demonstration (New Orchestrator & Agents)
+2025-05-10 00:33:45,692 - AAOIFIStandardsSystem - INFO - Initializing AAOIFI Standards Multi-Agent System (New Orchestrator)
+2025-05-10 00:33:46,067 - VectorDBManagerNew - INFO - VectorDBManagerNew: Connected to/created collection: aaoifi_standards at aaoifi_vector_db
+2025-05-10 00:33:46,068 - AAOIFIStandardsSystem - INFO - System initialization complete (New Orchestrator)
+2025-05-10 00:33:46,069 - __main__ - INFO - Loaded sample standard: Murabahah Standard X
+2025-05-10 00:33:46,070 - AAOIFIStandardsSystem - INFO - Beginning processing of standard: Murabahah Standard X (New Orchestrator)
+2025-05-10 00:33:48,385 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-05-10 00:33:48,761 - VectorDBManagerNew - INFO - Added 5 chunks from Murabahah Standard X to vector database
+2025-05-10 00:33:48,762 - DocumentReviewAgent - INFO - Executing DocumentReviewAgent (stub using original ReviewAgent) for Murabahah Standard X
+2025-05-10 00:34:19,072 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:34:19,076 - ReviewAgent - INFO - ReviewAgent: Successfully extracted section: 'Core principles and objectives'. Length: 476
+2025-05-10 00:34:19,077 - ReviewAgent - INFO - ReviewAgent: Successfully extracted section: 'Key definitions and terminology'. Length: 558
+2025-05-10 00:34:19,078 - ReviewAgent - INFO - ReviewAgent: Successfully extracted section: 'Main requirements and procedures'. Length: 464
+2025-05-10 00:34:19,079 - ReviewAgent - INFO - ReviewAgent: Successfully extracted section: 'Compliance criteria and guidelines'. Length: 484
+2025-05-10 00:34:19,080 - ReviewAgent - INFO - ReviewAgent: Successfully extracted section: 'Practical implementation considerations'. Length: 863
+2025-05-10 00:34:19,081 - ReviewAgent - INFO - Agent 'ReviewAgent' (Type: generic) executed. Duration: 30.30s
+2025-05-10 00:34:24,147 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:34:24,151 - StandardAnalysisAgent - INFO - NewBaseAgent: Successfully extracted section: 'Challenges'. Length: 890
+2025-05-10 00:34:24,152 - StandardAnalysisAgent - INFO - NewBaseAgent: Successfully extracted section: 'Improvement Areas'. Length: 945
+2025-05-10 00:34:24,153 - StandardAnalysisAgent - INFO - Agent 'Standard Analysis Agent' (Type: analysis) executed. Duration: 5.07s
+2025-05-10 00:34:49,669 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:34:49,672 - EnhancementAgentNew - WARNING - NewBaseAgent: Section 'clarity_improvements' (searched as 'clarity\ improvements' with marker '\#\#\#') not found. Text searched (first 500 chars): ### clarity_improvements
+- **Section:** Core principles and objectives
+- **Current Concept:** General conditions and procedures for Murabahah transactions.
+- **Proposed Modification:** Provide more detailed and explicit guidance on the conditions, procedures, and rules governing Murabahah transactions. This could include step-by-step procedures for executing a Murabahah transaction, specific conditions that must be met, and clear rules for different scenarios.
+- **Justification:** Clearer defini
+2025-05-10 00:34:49,673 - EnhancementAgentNew - WARNING - NewBaseAgent: Section 'modern_adaptations' (searched as 'modern\ adaptations' with marker '\#\#\#') not found. Text searched (first 500 chars): ### clarity_improvements
+- **Section:** Core principles and objectives
+- **Current Concept:** General conditions and procedures for Murabahah transactions.
+- **Proposed Modification:** Provide more detailed and explicit guidance on the conditions, procedures, and rules governing Murabahah transactions. This could include step-by-step procedures for executing a Murabahah transaction, specific conditions that must be met, and clear rules for different scenarios.
+- **Justification:** Clearer defini
+2025-05-10 00:34:49,674 - EnhancementAgentNew - WARNING - NewBaseAgent: Section 'tech_integration' (searched as 'tech\ integration' with marker '\#\#\#') not found. Text searched (first 500 chars): ### clarity_improvements
+- **Section:** Core principles and objectives
+- **Current Concept:** General conditions and procedures for Murabahah transactions.
+- **Proposed Modification:** Provide more detailed and explicit guidance on the conditions, procedures, and rules governing Murabahah transactions. This could include step-by-step procedures for executing a Murabahah transaction, specific conditions that must be met, and clear rules for different scenarios.
+- **Justification:** Clearer defini
+2025-05-10 00:34:49,675 - EnhancementAgentNew - WARNING - NewBaseAgent: Section 'cross_references' (searched as 'cross\ references' with marker '\#\#\#') not found. Text searched (first 500 chars): ### clarity_improvements
+- **Section:** Core principles and objectives
+- **Current Concept:** General conditions and procedures for Murabahah transactions.
+- **Proposed Modification:** Provide more detailed and explicit guidance on the conditions, procedures, and rules governing Murabahah transactions. This could include step-by-step procedures for executing a Murabahah transaction, specific conditions that must be met, and clear rules for different scenarios.
+- **Justification:** Clearer defini
+2025-05-10 00:34:49,676 - EnhancementAgentNew - WARNING - NewBaseAgent: Section 'implementation_guidance' (searched as 'implementation\ guidance' with marker '\#\#\#') not found. Text searched (first 500 chars): ### clarity_improvements
+- **Section:** Core principles and objectives
+- **Current Concept:** General conditions and procedures for Murabahah transactions.
+- **Proposed Modification:** Provide more detailed and explicit guidance on the conditions, procedures, and rules governing Murabahah transactions. This could include step-by-step procedures for executing a Murabahah transaction, specific conditions that must be met, and clear rules for different scenarios.
+- **Justification:** Clearer defini
+2025-05-10 00:34:49,676 - EnhancementAgentNew - INFO - Agent 'Enhancement Agent (New)' (Type: enhancement) executed. Duration: 25.52s
+2025-05-10 00:35:04,637 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:35:04,644 - ShariahComplianceAgent - INFO - Shariah ruling parsed for 'clarity_improvements': Approved
+2025-05-10 00:35:04,647 - ShariahComplianceAgent - INFO - Shariah ruling parsed for 'modern_adaptations': Approved
+2025-05-10 00:35:04,650 - ShariahComplianceAgent - INFO - Shariah ruling parsed for 'tech_integration': Conditionally Approved
+2025-05-10 00:35:04,652 - ShariahComplianceAgent - INFO - Shariah ruling parsed for 'cross_references': Requires Modification
+2025-05-10 00:35:04,655 - ShariahComplianceAgent - INFO - Shariah ruling parsed for 'implementation_guidance': Approved
+2025-05-10 00:35:04,658 - ShariahComplianceAgent - INFO - NewBaseAgent: Successfully extracted section: 'Shariah Assessment Summary'. Length: 1922
+2025-05-10 00:35:04,659 - ShariahComplianceAgent - INFO - Agent 'Shariah Compliance Agent' (Type: shariah_compliance) executed. Duration: 14.98s
+2025-05-10 00:35:27,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:35:27,499 - ValidationAgentNew - INFO - NewBaseAgent: Successfully extracted section: 'Overall Validation Summary'. Length: 2755
+2025-05-10 00:35:27,501 - ValidationAgentNew - INFO - NewBaseAgent: Successfully extracted section: 'Clarity Improvements Assessment'. Length: 536
+2025-05-10 00:35:27,502 - ValidationAgentNew - INFO - NewBaseAgent: Successfully extracted section: 'Modern Adaptations Assessment'. Length: 413
+2025-05-10 00:35:27,503 - ValidationAgentNew - INFO - NewBaseAgent: Successfully extracted section: 'Tech Integration Assessment'. Length: 472
+2025-05-10 00:35:27,504 - ValidationAgentNew - INFO - NewBaseAgent: Successfully extracted section: 'Cross References Assessment'. Length: 394
+2025-05-10 00:35:27,505 - ValidationAgentNew - INFO - NewBaseAgent: Successfully extracted section: 'Implementation Guidance Assessment'. Length: 381
+2025-05-10 00:35:27,505 - ValidationAgentNew - INFO - Agent 'Validation Agent (New)' (Type: validation) executed. Duration: 22.84s
+2025-05-10 00:35:54,512 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:35:54,527 - ReportGenerationAgent - INFO - NewBaseAgent: Successfully extracted section: 'Executive Summary'. Length: 628
+2025-05-10 00:35:54,528 - ReportGenerationAgent - INFO - NewBaseAgent: Successfully extracted section: 'Standard Analysis'. Length: 1100
+2025-05-10 00:35:54,530 - ReportGenerationAgent - INFO - NewBaseAgent: Successfully extracted section: 'Enhancement Recommendations'. Length: 1083
+2025-05-10 00:35:54,531 - ReportGenerationAgent - INFO - NewBaseAgent: Successfully extracted section: 'Validation Results'. Length: 1068
+2025-05-10 00:35:54,533 - ReportGenerationAgent - INFO - NewBaseAgent: Successfully extracted section: 'Implementation Roadmap'. Length: 808
+2025-05-10 00:35:54,533 - ReportGenerationAgent - INFO - Agent 'Report Generation Agent' (Type: report) executed. Duration: 27.03s
+2025-05-10 00:36:28,506 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:36:28,510 - VisualizationAgent - INFO - NewBaseAgent: Successfully extracted section: 'Enhancement Impact Matrix'. Length: 1285
+2025-05-10 00:36:28,511 - VisualizationAgent - INFO - NewBaseAgent: Successfully extracted section: 'Shariah Compliance Visualization'. Length: 850
+2025-05-10 00:36:28,512 - VisualizationAgent - INFO - NewBaseAgent: Successfully extracted section: 'Implementation Roadmap Timeline'. Length: 936
+2025-05-10 00:36:28,513 - VisualizationAgent - INFO - NewBaseAgent: Successfully extracted section: 'Stakeholder Impact Analysis'. Length: 1138
+2025-05-10 00:36:28,513 - VisualizationAgent - INFO - Agent 'Visualization Agent' (Type: visualization) executed. Duration: 33.98s
+2025-05-10 00:36:28,516 - AAOIFIStandardsSystem - INFO - Results saved to results\Murabahah_Standard_X_new_orchestrator_results_20250510-003628.json
+2025-05-10 00:36:28,516 - AAOIFIStandardsSystem - INFO - Completed processing of standard: Murabahah Standard X (New Orchestrator)
+2025-05-10 00:36:28,517 - AAOIFIStandardsSystem - INFO - Processing stakeholder feedback (New Orchestrator)
+2025-05-10 00:36:54,527 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 00:36:54,533 - FeedbackAgent - INFO - NewBaseAgent: Successfully extracted section: 'Stakeholder Categories'. Length: 727
+2025-05-10 00:36:54,535 - FeedbackAgent - INFO - NewBaseAgent: Successfully extracted section: 'Feedback Patterns and Themes'. Length: 512
+2025-05-10 00:36:54,539 - FeedbackAgent - INFO - NewBaseAgent: Successfully extracted section: 'Feedback Validity Analysis'. Length: 754
+2025-05-10 00:36:54,542 - FeedbackAgent - INFO - NewBaseAgent: Successfully extracted section: 'Recommended Refinements'. Length: 768
+2025-05-10 00:36:54,545 - FeedbackAgent - INFO - NewBaseAgent: Successfully extracted section: 'Feedback Incorporation Process Suggestions'. Length: 813
+2025-05-10 00:36:54,546 - FeedbackAgent - INFO - Agent 'Feedback Agent' (Type: feedback) executed. Duration: 26.03s
+2025-05-10 00:36:54,550 - AAOIFIStandardsSystem - INFO - Results saved to results\Murabahah_Standard_X_new_orchestrator_feedback_20250510-003654.json
+2025-05-10 00:36:54,584 - __main__ - ERROR - An error occurred during visualization: '<' not supported between instances of 'int' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Temp\ipykernel_18088\2155306969.py", line 1299, in visualize_results
+    sorted_ticks_combined = sorted(list(set(zip(yticks_locs, yticks_labels))), key=lambda x: x[0])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'int' and 'str'
+2025-05-10 00:36:54,586 - __main__ - INFO - Demonstration completed successfully (New Orchestrator & Agents)
+2025-05-10 00:36:54,587 - __main__ - INFO - Demonstration results obtained for standard: Murabahah Standard X
+2025-05-10 00:36:54,587 - __main__ - INFO - Feedback analysis obtained for standard: Murabahah Standard X
+2025-05-10 00:36:54,588 - __main__ - INFO - Main execution finished. Results (if any) saved to results directory.
