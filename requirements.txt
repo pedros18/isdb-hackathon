@@ -1,0 +1,20 @@
+django
+djangorestframework
+django-cors-headers # If frontend is on a different domain
+python-dotenv
+
+# From MAI.py / FastAPI version
+openai
+langchain
+langchain-openai
+chromadb
+pypdf2
+numpy
+pandas
+matplotlib
+python-multipart # For DRF file uploads
+
+# From analyzer.py (if its PDF extraction is used)
+# pdf2image
+# pytesseract
+# Pillow
