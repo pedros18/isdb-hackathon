@@ -44,7 +44,6 @@ export default function Regulators() {
   const [feedback, setFeedback] = useState('');
   const [chartData, setChartData] = useState(null);
   
-  // Fix: Add fileInputRef
   const fileInputRef = useRef(null);
   const barChartRef = useRef(null);
   const lineChartRef = useRef(null);
@@ -66,13 +65,11 @@ export default function Regulators() {
       
       setAnalysisResults(response.data);
       
-      // Store chart data if available
       if (response.data.chart_data) {
         setChartData(response.data.chart_data);
       }
     } catch (error) {
       console.error('Analysis error:', error);
-      // Handle error (show toast/notification)
     } finally {
       setIsAnalyzing(false);
     }
@@ -87,7 +84,6 @@ export default function Regulators() {
         standard_name: analysisResults.standard_name,
       });
       
-      // Update with refined results
       setAnalysisResults(prev => ({
         ...prev,
         feedback: response.data
@@ -101,7 +97,6 @@ export default function Regulators() {
   useEffect(() => {
     if (!chartData || !barChartRef.current || !lineChartRef.current) return;
     
-    // Clear any existing charts
     if (barChartRef.current.chart) {
       barChartRef.current.chart.destroy();
     }
@@ -109,7 +104,6 @@ export default function Regulators() {
       lineChartRef.current.chart.destroy();
     }
     
-    // Create bar chart
     const barCtx = barChartRef.current.getContext('2d');
     barChartRef.current.chart = new Chart(barCtx, {
       type: 'bar',
@@ -145,7 +139,6 @@ export default function Regulators() {
       }
     });
     
-    // Create line chart
     const lineCtx = lineChartRef.current.getContext('2d');
     lineChartRef.current.chart = new Chart(lineCtx, {
       type: 'line',
@@ -197,43 +190,30 @@ export default function Regulators() {
       {/* Hero Section */}
       <section className="bg-[#1a322a] pb-12 pt-6">
         <div className="max-w-[1200px] mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            <div className="md:w-1/2">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-['Kyiv_Type_Sans'] font-bold">
-                Regulatory Excellence Platform
-              </h1>
-              <p className="text-[#c5d6d0] mt-4 text-lg font-['Laila']">
-                Comprehensive tools for Islamic finance regulators to monitor compliance, 
-                analyze standards, and optimize regulatory frameworks.
-              </p>
-              <div className="mt-8">
-                <button className="bg-white text-[#1a322a] hover:bg-[#f0f0f0] transition px-6 py-3 rounded font-bold">
-                  Schedule Demo
-                </button>
-              </div>
-            </div>
-            <div className="md:w-1/2">
-              <img 
-                src="/regulators-hero.svg" 
-                alt="Regulatory Platform" 
-                className="w-full h-auto"
-                onError={(e) => {
-                  e.target.onerror = null;
-                  e.target.src = "https://via.placeholder.com/600x400?text=Regulatory+Platform";
-                }}
-              />
+          <div className="flex flex-col items-center text-center">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-['Kyiv_Type_Sans'] font-bold">
+              Regulatory Excellence Platform
+            </h1>
+            <p className="text-[#c5d6d0] mt-4 text-lg font-['Laila'] max-w-2xl">
+              Comprehensive tools for Islamic finance regulators to monitor compliance, 
+              analyze standards, and optimize regulatory frameworks.
+            </p>
+            <div className="mt-8">
+              <button className="bg-white text-[#1a322a] hover:bg-[#f0f0f0] transition px-6 py-3 rounded font-bold">
+                Schedule Demo
+              </button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Feature Cards Section */}
+      {/* Feature Cards Section - Centered */}
       <section className="py-12">
         <div className="max-w-[1200px] mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-['Kyiv_Type_Sans'] font-bold text-center text-[#1a322a] mb-8">
             Built for Regulatory Excellence
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {cards.map((card, index) => (
               <FinanceCard
                 key={index}
@@ -246,7 +226,7 @@ export default function Regulators() {
         </div>
       </section>
       
-      {/* Add a file upload section */}
+      {/* File Upload Section */}
       <section className="max-w-[1200px] mx-auto px-4 py-6">
         <div className="bg-white p-6 rounded-lg shadow-md">
           <h2 className="font-['Kyiv_Type_Sans'] text-xl mb-4 text-[#1a322a]">
@@ -280,7 +260,7 @@ export default function Regulators() {
         </div>
       </section>
       
-      {/* Display chart data section - show only once */}
+      {/* Chart Data Section */}
       {chartData && (
         <section className="max-w-[1200px] mx-auto px-4 py-6">
           <div className="bg-white p-6 rounded-lg shadow-md">
@@ -306,7 +286,7 @@ export default function Regulators() {
         </section>
       )}
       
-      {/* Display analysis results */}
+      {/* Analysis Results Section */}
       {analysisResults && (
         <section className="max-w-[1200px] mx-auto px-4 py-6">
           <div className="bg-white p-6 rounded-lg shadow-md">
@@ -314,7 +294,6 @@ export default function Regulators() {
               Analysis Results: {analysisResults.standard_name}
             </h2>
             
-            {/* Summary Card */}
             <div className="mb-6 p-4 bg-[#f5f5f5] rounded text-black">
               <h3 className="font-['Kyiv_Type_Sans'] font-bold mb-2">Executive Summary</h3>
               <p className="font-['Laila']">
@@ -322,7 +301,6 @@ export default function Regulators() {
               </p>
             </div>
             
-            {/* Enhancement Recommendations */}
             <div className="mb-6 text-black">
               <h3 className="font-['Kyiv_Type_Sans'] font-bold mb-2">Enhancement Recommendations</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -345,7 +323,6 @@ export default function Regulators() {
               </div>
             </div>
             
-            {/* Feedback Section */}
             <div className="mt-6 text-black">
               <h3 className="font-['Kyiv_Type_Sans'] font-bold mb-2">Provide Feedback</h3>
               <textarea
@@ -364,7 +341,6 @@ export default function Regulators() {
               </button>
             </div>
             
-            {/* Display feedback results if available */}
             {analysisResults.feedback && (
               <div className="mt-6 p-4 bg-[#f5f5f5] rounded text-black">
                 <h3 className="font-['Kyiv_Type_Sans'] font-bold mb-2">Feedback Response</h3>
